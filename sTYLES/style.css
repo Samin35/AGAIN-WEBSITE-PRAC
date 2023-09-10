@@ -63,12 +63,98 @@ header {
 }
 
 .banner {
-    padding: 40px;
+    padding: 40px 40px 0 40px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .profile-pic {
     height: 600px;
     width: 500px;
+}
+
+.banner-content {
+    width: 605px;
+}
+
+.banner {
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    background-image: url('../images/developer.png');
+    background-position: left;
+    background-size: 100px 550px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-me {
+    background-color: antiquewhite;
+    padding: 80px;
+    margin-top: 80px;
+    border-radius: 30px;
+
+}
+
+.about-para {
+    text-align: center;
+}
+
+.about-title {
+    text-align: center;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+}
+
+.des {
+    align-items: center;
+}
+
+.what-i-do {
+    margin-top: 90px;
+}
+
+.skill-div {
+    height: 377px;
+    width: 226px;
+    padding: 40px;
+
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px pink;
+    margin: 0 10px 0 10px;
+    gap: 34px;
+
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+
+}
+
+.resume-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.resume {
+    margin-top: 100px;
+}
+
+.align {
+    text-align: center;
+    margin-top: 30px;
 }
